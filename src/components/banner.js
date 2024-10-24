@@ -44,7 +44,7 @@ function AppHero() {
                     className="btn btn-primary btn-sm d-block d-md-inline"
                     href={hero.link}
                   >
-                    Learn More <i className="fas fa-chevron-right"></i>
+                    Learn Moree <i className="fas fa-chevron-right"></i>
                   </a>
 
                 </Carousel.Caption>
