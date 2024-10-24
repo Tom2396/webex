@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter as Router } from 'react-router-dom';
 import AppHeader from './components/header'
 import AppHero from './components/banner';
 import AppAbout from './components/about';
@@ -16,27 +17,30 @@ const MainApp = () => {
   return (
     <div className="App">
 
-    <header id="header">
-      <AppHeader />
-    </header>
+      <header id="header">
+        <Router>
+          <AppHeader />
 
-    <main>
-      <AppHero />
-      <AppAbout />
-      <AppServices />
-      <AppWorks />
-      <AppTeams />
-      <AppTestimonials />
-      <AppPricing />
-      <AppBlog />
-      <AppContact />
-    </main>
-    
-    <footer id='footer'>
-      <AppFooter />
-    </footer>
+        </Router>
+      </header>
 
-  </div>
+      <main>
+        <AppHero />
+        <AppAbout />
+        <AppServices />
+        <AppWorks />
+        <AppTeams />
+        <AppTestimonials />
+        <AppPricing />
+        <AppBlog />
+        <AppContact />
+      </main>
+
+      <footer id='footer'>
+        <AppFooter />
+      </footer>
+
+    </div>
   )
 }
 
