@@ -1,0 +1,46 @@
+.carousel-caption {
+    display: block !important; /* Make sure the captions are displayed */
+    padding: 15px; /* Add padding to the caption */
+    color: #fff; /* Set text color for contrast */
+    bottom: 20px; /* Adjust position if needed */
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h2 {
+        margin-top: 10px;
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+
+    .carousel-caption a {
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
+        padding: 8px 12px; /* Smaller padding for mobile */
+    }
+
+    .carousel-caption {
+        bottom: 10px; /* Adjust the position on mobile */
+    }
+}
+
+/* Additional styles for extra small screens */
+@media (max-width: 478px) {
+    .carousel-caption h2 {
+        font-size: 1rem; /* Further reduce font size for very small screens */
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem; /* Further reduce font size for very small screens */
+    }
+
+    .carousel-caption a {
+        font-size: 0.7rem; /* Smaller font size for very small screens */
+        padding: 6px 10px; /* Further reduce padding */
+    }
+
+    .carousel-caption {
+        bottom: 5px; /* Adjust position for very small screens */
+    }
+}
