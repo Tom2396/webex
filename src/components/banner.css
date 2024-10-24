@@ -1,46 +1,53 @@
+/* General carousel caption styling */
 .carousel-caption {
-    display: block !important; /* Make sure the captions are displayed */
-    padding: 15px; /* Add padding to the caption */
-    color: #fff; /* Set text color for contrast */
-    bottom: 20px; /* Adjust position if needed */
+    display: block !important; /* Ensure captions are always shown */
+    color: #fff; /* Text color */
+    bottom: 20px;
 }
 
+/* Styles for small screens */
 @media (max-width: 768px) {
+    .carousel-caption {
+        padding: 15px;
+        bottom: 10px;
+    }
+
     .carousel-caption h2 {
-        margin-top: 10px;
-        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        font-size: 1.2rem;
+        margin-bottom: 10px; /* Add spacing below the title */
     }
 
     .carousel-caption p {
-        font-size: 1rem; /* Adjust font size for smaller screens */
+        font-size: 1rem;
+        margin-bottom: 10px; /* Add spacing below the description */
     }
 
     .carousel-caption a {
-        font-size: 0.8rem; /* Adjust font size for smaller screens */
-        padding: 8px 12px; /* Smaller padding for mobile */
-    }
-
-    .carousel-caption {
-        bottom: 10px; /* Adjust the position on mobile */
+        font-size: 0.8rem;
+        padding: 8px 12px;
     }
 }
 
 /* Additional styles for extra small screens */
 @media (max-width: 478px) {
+    .carousel-caption {
+        bottom: 5px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.7); /* Darker background for better readability */
+    }
+
     .carousel-caption h2 {
-        font-size: 1rem; /* Further reduce font size for very small screens */
+        font-size: 1rem;
+        margin-bottom: 8px;
     }
 
     .carousel-caption p {
-        font-size: 0.8rem; /* Further reduce font size for very small screens */
+        font-size: 0.8rem;
+        margin-bottom: 8px;
     }
 
     .carousel-caption a {
-        font-size: 0.7rem; /* Smaller font size for very small screens */
-        padding: 6px 10px; /* Further reduce padding */
-    }
-
-    .carousel-caption {
-        bottom: 5px; /* Adjust position for very small screens */
+        font-size: 0.7rem;
+        padding: 6px 10px;
     }
 }
