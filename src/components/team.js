@@ -7,9 +7,9 @@ const teamsData = [
   {
     id: 1,
     image: require('../assets/images/team1.jpg'),
-    fbLink: 'http://localhost:3000/',
-    twitterLink: 'http://localhost:3000/',
-    linkedinLink: 'http://localhost:3000/',
+    fbLink: '',
+    twitterLink: '',
+    linkedinLink: '',
     name: 'Gabriel Hart',
     designation: 'CEO',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
@@ -17,9 +17,9 @@ const teamsData = [
   {
     id: 2,
     image: require('../assets/images/team2.jpg'),
-    fbLink: 'http://localhost:3000/',
-    twitterLink: 'http://localhost:3000/',
-    linkedinLink: 'http://localhost:3000/',
+    fbLink: '',
+    twitterLink: '',
+    linkedinLink: '',
     name: 'David Antony',
     designation: 'Manager',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
@@ -27,9 +27,9 @@ const teamsData = [
   {
     id: 3,
     image: require('../assets/images/team3.jpg'),
-    fbLink: 'http://localhost:3000/',
-    twitterLink: 'http://localhost:3000/',
-    linkedinLink: 'http://localhost:3000/',
+    fbLink: '',
+    twitterLink: '',
+    linkedinLink: '',
     name: 'Nicholas Perry',
     designation: 'UX Designer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
@@ -37,9 +37,9 @@ const teamsData = [
   {
     id: 4,
     image: require('../assets/images/team4.jpg'),
-    fbLink: 'http://localhost:3000/',
-    twitterLink: 'http://localhost:3000/',
-    linkedinLink: 'http://localhost:3000/',
+    fbLink: '',
+    twitterLink: '',
+    linkedinLink: '',
     name: 'Sarah Wills',
     designation: 'Developer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
@@ -47,9 +47,9 @@ const teamsData = [
   {
     id: 5,
     image: require('../assets/images/team5.jpg'),
-    fbLink: 'http://localhost:3000/',
-    twitterLink: 'http://localhost:3000/',
-    linkedinLink: 'http://localhost:3000/',
+    fbLink: '',
+    twitterLink: '',
+    linkedinLink: '',
     name: 'Sophia Pitt',
     designation: 'Developer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
@@ -57,9 +57,9 @@ const teamsData = [
   {
     id: 6,
     image: require('../assets/images/team6.jpg'),
-    fbLink: 'http://localhost:3000/',
-    twitterLink: 'http://localhost:3000/',
-    linkedinLink: 'http://localhost:3000/',
+    fbLink: '',
+    twitterLink: '',
+    linkedinLink: '',
     name: 'Taylor Lopez',
     designation: 'Developer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
@@ -67,9 +67,9 @@ const teamsData = [
   {
     id: 7,
     image: require('../assets/images/team7.jpg'),
-    fbLink: 'http://localhost:3000/',
-    twitterLink: 'http://localhost:3000/',
-    linkedinLink: 'http://localhost:3000/',
+    fbLink: '',
+    twitterLink: '',
+    linkedinLink: '',
     name: 'Ryan Giggs',
     designation: 'Content Writer',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
@@ -77,9 +77,9 @@ const teamsData = [
   {
     id: 8,
     image: require('../assets/images/team8.jpg'),
-    fbLink: 'http://localhost:3000/',
-    twitterLink: 'http://localhost:3000/',
-    linkedinLink: 'http://localhost:3000/',
+    fbLink: '',
+    twitterLink: '',
+    linkedinLink: '',
     name: 'David Smith',
     designation: 'SEO Expert',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'

@@ -10,7 +10,7 @@ const blogData = [
     time: '15 Nov 2023',
     title: 'Coffee Lovers',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, asperiores eaque quibusdam eum quod cum nesciunt.',
-    link: 'http://localhost:3000/'
+    link: ''
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const blogData = [
     time: '10 Nov 2023',
     title: 'Tips for UI Design',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, asperiores eaque quibusdam eum quod cum nesciunt.',
-    link: 'http://localhost:3000/'
+    link: ''
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const blogData = [
     time: '07 Nov 2023',
     title: 'Beautiful Day',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, asperiores eaque quibusdam eum quod cum nesciunt.',
-    link: 'http://localhost:3000/'
+    link: ''
   }
 ]
 

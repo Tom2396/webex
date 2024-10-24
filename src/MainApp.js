@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import AppHeader from './components/header'
 import AppHero from './components/banner';
 import AppAbout from './components/about';
@@ -18,10 +18,10 @@ const MainApp = () => {
     <div className="App">
 
       <header id="header">
-        <Router>
+        <BrowserRouter>
           <AppHeader />
+        </BrowserRouter>
 
-        </Router>
       </header>
 
       <main>

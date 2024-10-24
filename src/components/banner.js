@@ -6,21 +6,21 @@ var heroData = [
     image: require('../assets/images/img-hero1.jpg'),
     title: 'The perfect design for your website',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
-    link: 'http://localhost:3000/'
+    link: ''
   },
   {
     id: 2,
     image: require('../assets/images/img-hero2.jpg'),
     title: 'Start Your Future Financial Plan',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
-    link: 'http://localhost:3000/'
+    link: ''
   },
   {
     id: 3,
     image: require('../assets/images/img-hero3.jpg'),
     title: 'Enjoy the Difference',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
-    link: 'http://localhost:3000/'
+    link: ''
   }
 ]
 

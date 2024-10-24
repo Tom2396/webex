@@ -9,21 +9,21 @@ const pricingData = [
     plan: 'Basic',
     price: '₹1049',
     features: ['Wireframing', 'Visual Design', '5 pages', 'Free Hosting', 'Support & Assistance'],
-    link: 'http://localhost:3000/'
+    link: ''
   },
   {
     id: 2,
     plan: 'Premium',
     price: '₹2490',
     features: ['Wireframing', 'Visual Design', '15 pages', 'Free Hosting', 'Support & Assistance'],
-    link: 'http://localhost:3000/'
+    link: ''
   },
   {
     id: 3,
     plan: 'Ultimate',
     price: '₹3490',
     features: ['Wireframing', 'Visual Design', 'Unlimited pages', 'Free Hosting', 'Support & Assistance'],
-    link: 'http://localhost:3000/'
+    link: ''
   }
 ]
 
