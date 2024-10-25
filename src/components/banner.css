@@ -39,7 +39,7 @@
     }
 
     .carousel-caption h2 {
-        font-size: 0.8rem; /* Further reduce font size */
+        font-size: 1.0rem; /* Further reduce font size */
         margin-bottom: 8px;
     }
 
@@ -51,5 +51,38 @@
     .carousel-caption a {
         font-size: 0.6rem; /* Smaller font size for the button */
         padding: 8px 12px; /* Further reduce padding */
+    }
+}
+
+
+/* General carousel image styling */
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio by default */
+}
+
+/* Styles for small screens */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 350px; /* Set a fixed height for small screens */
+        object-fit: cover; /* Ensures the image covers the height while maintaining aspect ratio */
+    }
+
+    .carousel-caption {
+        bottom: 15px;
+        padding: 10px 15px;
+    }
+}
+
+/* Additional styles for extra small screens */
+@media (max-width: 478px) {
+    .carousel-item img {
+        height: 300px; /* Further reduce the height for very small screens */
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        bottom: 10px;
+        padding: 8px 10px;
     }
 }
