@@ -1,53 +1,55 @@
 /* General carousel caption styling */
 .carousel-caption {
     display: block !important; /* Ensure captions are always shown */
+    padding: 20px; /* Add padding for better spacing */
     color: #fff; /* Text color */
-    bottom: 20px;
+    bottom: 20px; /* Position adjustment */
+    text-align: center; /* Center-align the content */
 }
 
 /* Styles for small screens */
 @media (max-width: 768px) {
     .carousel-caption {
         padding: 15px;
-        bottom: 10px;
+        bottom: 15px; /* Move up the caption to make space */
     }
 
     .carousel-caption h2 {
-        font-size: 1.2rem;
+        font-size: 1.0rem; /* Font size adjustment */
         margin-bottom: 10px; /* Add spacing below the title */
     }
 
     .carousel-caption p {
-        font-size: 1rem;
+        font-size: 0.9rem; /* Font size adjustment */
         margin-bottom: 10px; /* Add spacing below the description */
     }
 
     .carousel-caption a {
-        font-size: 0.8rem;
-        padding: 8px 12px;
+        font-size: 0.7rem; /* Slightly larger font size for the button */
+        padding: 10px 15px; /* Increase button padding */
+        display: block; /* Ensure the button is displayed as a block for better spacing */
     }
 }
 
 /* Additional styles for extra small screens */
 @media (max-width: 478px) {
     .carousel-caption {
-        bottom: 5px;
-        padding: 10px;
-        background: rgba(0, 0, 0, 0.7); /* Darker background for better readability */
+        bottom: 10px; /* Further move up the caption */
+        padding: 10px; /* Reduce padding */
     }
 
     .carousel-caption h2 {
-        font-size: 1rem;
+        font-size: 0.8rem; /* Further reduce font size */
         margin-bottom: 8px;
     }
 
     .carousel-caption p {
-        font-size: 0.8rem;
+        font-size: 0.7rem; /* Further reduce font size */
         margin-bottom: 8px;
     }
 
     .carousel-caption a {
-        font-size: 0.7rem;
-        padding: 6px 10px;
+        font-size: 0.6rem; /* Smaller font size for the button */
+        padding: 8px 12px; /* Further reduce padding */
     }
 }
